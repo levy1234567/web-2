@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@400;500;600;700&display=swa p');
+
+@import url('https://fonts.googleapis.com/css2? family=Montserrat:wght@700&display=swap');
+
+#brand-name{
+    font-family: "Montserrat", sans-serif;
+}
+.nav-item,.banner5-content, main, .pre-foot-content footer, #end{
+    font-family: "Poppins", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+#logo-img{
+    width: 40px;
+    height: 32px;
+    margin-left:25px;
+}
+#alert-contact-icon,#search-icon,#fav-icon,#buy-icon{
+    width: 10px;
+    height: 10px;
+}
+#brand-name{
+    margin-top: 7px;
+}
+.head-sec-link{
+    color: black;
+    font-size: 10px;
+    align-content: end;
+}
+.head-menu, footer{
+    display: flex;
+    align-items: baseline;
+}
+header{
+    width: 100% ;
+}
+#banner5-img{
+    width:100vw;
+    height:200px;
+    object-fit: cover;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+  position: relative;
+}
+.breadcrumb li:not(:first-child)::before {
+    content: ">";
+    color: black;
+}
+#banner5-logo{
+    width: 60px;
+    height: 63px;
+}
+#banner5-head{
+    display: inline-flex;
+    position: absolute;
+    justify-items: center;
+}
+.breadcrumb-item{
+    display: flex;
+    margin-top: 50px;
+}
+#banner5-pre, #banner5-now{
+    color: black;
+}
+.breadcrumb{
+    display: inline-flex;
+    margin-left: 42vw;
+}
+#banner5-logo{
+    display: inline-flex;
+    margin-left: 45vw;
+}
+#banner5-head{
+    display: inline-flex;
+    margin-left: 43vw;
+}
+.blog-img{
+    width: 50vw;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.admin-img, .time-post-img, .tag-img{
+    width: 20px;
+    height: 20px;
+}
+.blog-desc{
+    display: grid;
+    grid-column-gap: 10px;
+}
+.blog-detail{
+    display: flex;
+    font-size: 12px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.read-more-blog{
+    color:black;
+    text-decoration: underline;
+}
+.blog-aside-content{
+    display: grid;
+    grid-row-gap: 15px;
+}
+input#search {
+    background-image: url(2.PNG);
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+}
+.recent-post-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.recent-post-head{
+    display: inline-flex;
+    font-size: 12px;
+}
+.recent-post-time{
+    display: inline-flex;
+    font-size: 10px;
+}
+.page-content{
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(255, 245, 212); 
+    align-content: center;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+.pre-foot-img{
+    width: 90%;   
+}
+.pre-foot-head{
+    font-size: 14px;
+}
+.pre-foot-description{
+    font-size: 11px;
+}
+.pre-foot-content{
+    background-color: rgb(255, 245, 212);
+    padding: 50px;
+}
+#address, .foot-nav-content{
+    font-size: 15px;
+}
+#address{
+    position: relative;
+    margin-top: 30px;
+}
+#foot-brand-name, #address{
+    margin-left: 10px;
+}
+.foot-nav-content{
+    display: grid;
+    grid-row-gap: 10px;
+}
+#foot-button,#email-input{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;     
+}
+#foot-button{
+    position: relative;
+    margin-top: 47px;
+    margin-left: 15px;
+}
+#end{
+    margin-left: 30px;
+}

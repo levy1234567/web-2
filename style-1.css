@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@400;500;600;700&display=swa p');
+
+@import url('https://fonts.googleapis.com/css2? family=Montserrat:wght@700&display=swap');
+#brand-name{
+        font-family: "Montserrat", sans-serif;
+}
+.nav-item, .banner-box, #deco-head, #deco-description, main, footer, #end{
+        font-family: "Poppins", sans-serif;
+}
+ul{
+        list-style-type: none;
+}
+#logo-img{
+        width: 40px;
+        height: 32px;
+        margin-left:25px;
+
+}
+#alert-contact-icon,#search-icon,#fav-icon,#buy-icon{
+        width: 10px;
+        height: 10px;
+}
+#brand-name{
+        margin-top: 7px;
+}
+.head-sec-link{
+        color: black;
+        font-size: 10px;
+        align-content: end;
+}
+.head-menu, footer{
+        display: flex;
+        align-items: baseline;
+}
+header{
+        width: 100% ;
+}
+#banner-img{
+        width: 100vw;
+        position: relative;
+}
+.banner-box{
+        display: inline-flex;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        margin-top: 200px;
+        margin-left: 50vw;
+        background-color: rgb(250, 250, 194);
+}
+#banner-intro{
+        font-size:10px;
+}
+#banner-head{
+        color: rgb(146, 103, 22);
+        font-weight: 500;
+}
+#banner-description{
+        font-size: 10px;
+}
+#banner-button{
+        width: 40%;
+        color: white;
+        font-weight: 500;
+        background-color:rgb(146, 103, 22) ;
+        
+}
+#deco-head, #deco-description{
+        display: flex;
+        justify-content: center;
+}
+
+.deco-img{
+        display:inline-block;
+        width:30vw ;
+        height:50vh;
+        object-fit: cover;
+        border-radius: 5px;
+        max-width: 100vw;
+}
+#dinning-img{
+        margin-left: 30px;
+}
+#living-img{
+        margin-left: 15px;
+}
+#bedroom-img{
+        margin-right: 30px;
+}
+.deco-name{
+        display: flex;
+        justify-content: center;
+}
+#final{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        margin-left: 10px;
+}
+.product-image{
+        width: 23vw;
+}
+.product-discount{
+        display: inline-flex;
+        color: white;
+        background-color: rgb(238, 119, 119);
+        font-size: 12px;
+        margin-left: 17vw;
+}
+.product-tag{
+        display: inline-flex;
+        color: white;
+        background-color:rgb(125, 216, 184);
+        font-size: 12px;
+        margin-left: 17vw;
+}
+#Lolito{
+        #New{
+                background-color:transparent;
+                color: transparent;
+        }
+}
+.product-old_price{
+        font-size: small;
+}
+.product-price{
+        font-size: 14px;
+        
+}
+#address, .foot-nav-content{
+        font-size: 15px;
+}
+#address{
+        position: relative;
+        margin-top: 30px;
+}
+#foot-brand-name, #address{
+        margin-left: 10px;
+}
+.foot-nav-content{
+        display: grid;
+        grid-row-gap: 10px;
+}
+#foot-button,#email-input{
+        display: inline-block;
+        padding: 0;
+        border: none;
+        background: none;     
+}
+#foot-button{
+        position: relative;
+        margin-top: 47px;
+        margin-left: 15px;
+}
+#end{
+        margin-left: 30px;
+}
+.product-container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.card-img-content{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        background: rgba(173, 166, 166, 0.425);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        opacity: 0;
+        transition: 0.6s;
+}
+.card-img-content:hover{
+        opacity: 1;
+}
+#add-to-cart{
+        position: absolute;
+        margin-bottom: 70px;
+        color: rgb(146, 103, 22);
+        background-color: white;
+        border: none;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+}
+.material-symbols-outlined{
+        color: white;
+}
+#sec-button{
+        display: flex;
+        color: rgb(146, 103, 22);
+        border-style: solid;
+        background-color: white;
+        border-color:rgb(146, 103, 22) ;
+        margin-left: 40vw;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        cursor:pointer; 
+}
+
+
+.product-container:nth-child(1),
+.product-container:nth-child(2),
+.product-container:nth-child(3),
+.product-container:nth-child(4){display: inline-block;}
+
+.product-container{
+        position: relative;
+        width: 285px;
+        margin: auto;
+        height: 464.26px;
+        display: none;
+}

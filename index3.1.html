@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style-3.css">
+    
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+</head>
+<body>
+
+<header>
+<div class="row head-menu">
+    <div><img id="logo-img" src="logo.PNG" alt=""></div>
+    <h5 class="col" id="brand-name">Furniro</h5> 
+
+    <ul class="nav head-sec-content">
+        <li class="nav-item col">
+        <a class="nav-link head-sec-link" id="home-sec-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item col">
+        <a class="nav-link head-sec-link" id="shop-sec-link" href="index2.html">Shop</a>
+        </li>
+        <li class="nav-item col">
+        <a class="nav-link head-sec-link" id="about-sec-link" href="index5.html">About</a>
+        </li>
+        <li class="nav-item col">
+        <a class="nav-link head-sec-link" id="contact-sec-link" href="index4.html">Contact</a>
+        </li>
+    </ul>
+
+    
+    <ul class="nav head-sec-content">
+        <li class="nav-item col">
+        <a class="nav-link" href="#">
+            <img class="head-sec-icon" id="alert-contact-icon" src="1.PNG" alt="">
+        </a>
+        </li>
+        <li class="nav-item col">
+        <a class="nav-link" href="#">
+            <img class="head-sec-icon" id="search-icon" src="2.PNG" alt="">
+        </a>
+        </li>
+        <li class="nav-item col">
+        <a class="nav-link" href="#">
+            <img class="head-sec-icon" id="fav-icon" src="3.PNG" alt="">
+        </a>
+        </li>
+        <li class="nav-item col">
+        <a class="nav-link" href="#">
+            <img class="head-sec-icon" id="buy-icon" src="4.PNG" alt="">
+        </a>
+        </li>
+    </ul>
+</div>
+</header>
+
+<div class="card banner3-content">
+    <img class="card-img" id="banner3-img" src="banner2.jpg" alt="">
+    <div class="col card-img-overlay">
+        <div class="row">
+            <img id="banner3-logo" src="logo.PNG" alt="">
+        </div>
+        <div class="row">
+            <h4 class="card-header text-center" id="banner3-head">Cart</h4>
+        </div>
+        
+        <nav class="row" aria-label="breadcrumb">
+            <ul class="breadcrumb" style="background-color: transparent;">
+                <li class="breadcrumb-item "><a id="banner3-pre" href="index.html"><b>Home</b></a></li>
+                <li class="breadcrumb-item active" aria-current="page" id="banner3-now">Cart</li>
+            </ul>
+            </nav>
+    </div>
+</div>
+
+<br>
+
+<main>
+    <section class="row cart-menu-content" id="cart-menu">
+        <ul class="col-3 offset-1" id="cart-menu-list">
+            <li class="row cart-sec" id="product-sec">
+                <h5 class="cart-sec-head" id="product-sec-head">Product</h5>
+            </li>
+            <br>
+            <li class="row">
+                <img class="col" id="product-sec-img" src="sofa.jpg" alt=""> 
+                <p class="col text-center text-muted" id="product-sec-name">Asgaard sofa</p>  
+            </li>
+        </ul>
+        <ul class="col-1">
+            <li  class="row cart-sec" id="price-sec">
+                <h5 class="cart-sec-head" id="price-sec-head">Price</h5>
+            </li>
+            <br>
+            <li class="row text-muted">
+                <p id="price-sec-detail">Rs.250,000.00</p>
+            </li> 
+        </ul>
+        <ul class="col-1">
+            <li class="row cart-sec" id="quantity-sec">
+                <h5 class="cart-sec-head" id="quantity-sec-head">Quantity</h5>
+            </li>  
+            <br>  
+            <form class="row"  action="" method="get">
+                <input id="quantity-sec-form" type="text" placeholder="">
+            </form>
+        </ul>   
+        <ul class="col-2">
+            <li class="row cart-sec" id="subtotal-sec">
+                <h5 class="cart-sec-head" id="subtotal-sec-head">Subtotal</h5>
+            </li>    
+            <br>
+            <li class="row">
+                <div class="col">
+                    <p id="subtotal-sec-detail">Rs.250,000.00</p>
+                </div>
+                <div class="col">
+                    <img id="clear-sec-img" src="cart-del.PNG" alt="">
+                </div>
+                  
+            </li>
+        </ul>
+
+
+        <aside class="col-3 ml-3 p-2">
+            <ul class="cart-total-content">
+                <li class="row ml-1 mb-5">
+                    <h2 id="cart-total-head">Cart Totals</h2>
+                </li>
+                <li class="row mb-2">
+                    <h4 class="cart-total-heads mr-5 ml-1" id="subtotal-head">Subtotal</h4>
+                    <p id="subtotal-detail">Rs.250,000.00</p>
+                </li>
+                <li class="row mb-3">
+                    <h4 class="cart-total-heads mr-5 ml-1" id="total-head">Total</h4>
+                    <b id="total-detail">Rs.250,000.00</b>
+                </li>
+                <li class="row mb-5 ml-3">
+                    <button id="cart-total-button">Check Out</button>
+                </li>
+            </ul>
+        </aside>    
+    </section>
+</main>
+
+<br>
+
+<div class="row pre-foot-content" id="pre-foot">
+    <div class="col-1">
+        <img class="ml-4 pre-foot-img" id="quality-img" src="quality.PNG" alt="">
+    </div>
+    <div class="col-2">
+        <h6 class="pre-foot-head" id="quality-head">High Quality</h6>
+        <p class="pre-foot-description" id="quality-description">crafted from top materials</p>  
+    </div>
+    <div class="col-1">
+        <img class="ml-4 pre-foot-img" id="warranty-img" src="warranty.PNG" alt="">
+    </div>
+    <div class="col-2">
+        <h6 class="pre-foot-head" id="warranty-head">Warranty Protection</h6>
+        <p class="pre-foot-description" id="warranty-description">Over 2 years</p>
+    </div>
+    <div class="col-1">
+            <img class="ml-4 pre-foot-img" id="shipping-img" src="shipping.PNG" alt=""></li>
+    </div>
+    <div class="col-2">
+        <h6 class="pre-foot-head" id="shipping-head">Free Shipping</h6>
+        <p class="pre-foot-description" id="shipping-description">Order over 150$</p>
+    </div>
+    <div class="col-1">
+        <img class="ml-4 pre-foot-img" id="support-img" src="support.PNG" alt="">
+    </div>
+    <div class="col-2">
+        <h6 class="pre-foot-head" id="support-head">24/7 Support</h6>
+        <p class="pre-foot-description" id="support-description">Dedicated support</p>
+    </div>            
+</div>
+
+<hr>
+<footer class="border-bottom border-muted" style="width:95vw; margin-left: 20px;" id="foot-nav">
+<div class="row">
+    <div class="col-4">
+    <h6 class="row" id="foot-brand-name">Furniro.</h6>
+    <p class="row text-muted" id="address">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+    </div>
+    
+
+    <nav class="col-1">
+        <ul class="col foot-nav-content" id="foot-list-links">
+            <li class="row" id="Links-head">
+            <p class="text-muted">Links</p>
+            </li> 
+            <li class="row" id="home-nav">
+                <a class="foot-nav-link" id="home-nav-link" href="index.html">Home</a> 
+            </li>
+            <li class="row" id="shop-nav">
+                <a class="foot-nav-link" id="shop-nav-link" href="index2.html">Shop</a>
+            </li>
+            <li class="row" id="about-nav">
+                <a class="foot-nav-link" id="about-nav-link" href="index3.html">About</a>
+            </li>
+            <li class="row" id="contact-nav">
+                <a class="foot-nav-link" id="contact-nav-link" href="index4.html">Contact</a>
+            </li>
+        </ul>
+        </nav>
+
+    <nav class="col-3">
+        <ul class="foot-nav-content" id="foot-list-help">
+            <li class="row" id="Help-head">
+                <p class="text-muted">Help</p>
+            </li>          
+            <li class="row" id="payment-options-nav">
+                <a class="foot-nav-link" id="payment-options-nav-link" href="">Payment Options</a> 
+            </li>
+            <li class="row" id="returns-nav">
+                <a class="foot-nav-link" id="returns-nav-link" href="">Returns</a>
+            </li>
+            <li class="row" id="payment-options-nav">
+                <a class="foot-nav-link" id="privacy-policies-nav-link" href="">Privacy Policies</a>
+            </li>
+        </ul>
+        </nav>
+
+    <nav class="col-2 ">
+        <form class="foot-nav-content" action="" method="get">
+        <p class="text-muted">Newsletter</p>
+        <div class="row">
+        <input class="border-bottom border-dark" id="email-input" type="text" placeholder="Enter Your Email Address">
+        </div> 
+    </form>
+    </nav>
+
+    <nav class="col-1 ">
+        <div class="row">
+        <button class="border-bottom border-dark" id="foot-button">SUBSCRIBE</button>
+        </div>
+    </nav>
+
+    
+</footer>
+<p id="end">2023 furniro. All rights reserved</p>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

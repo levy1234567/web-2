@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@400;500;600;700&display=swa p');
+
+@import url('https://fonts.googleapis.com/css2? family=Montserrat:wght@700&display=swap');
+
+#brand-name{
+    font-family: "Montserrat", sans-serif;
+}
+.nav-item,.banner4-content, main, .pre-foot-content footer, #end{
+    font-family: "Poppins", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}  
+#logo-img{
+    width: 40px;
+    height: 32px;
+    margin-left:25px;
+}
+#alert-contact-icon,#search-icon,#fav-icon,#buy-icon{
+    width: 10px;
+    height: 10px;
+}
+#brand-name{
+    margin-top: 7px;
+}
+.head-sec-link{
+    color: black;
+    font-size: 10px;
+    align-content: end;
+}
+.head-menu, footer{
+    display: flex;
+    align-items: baseline;
+}
+header{
+    width: 100% ;
+}
+#banner4-img{
+    width:100vw;
+    height:200px;
+    object-fit: cover;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+  position: relative;
+}
+.breadcrumb li:not(:first-child)::before {
+    content: ">";
+    color: black;
+}
+#banner4-logo{
+    width: 60px;
+    height: 63px;
+}
+#banner4-head{
+    display: inline-flex;
+    position: absolute;
+    justify-items: center;
+}
+.breadcrumb-item{
+    display: flex;
+    margin-top: 50px;
+}
+#banner4-pre, #banner4-now{
+    color: black;
+}
+.breadcrumb{
+    display: inline-flex;
+    margin-left: 42vw;
+}
+#banner4-logo{
+    display: inline-flex;
+    margin-left: 45vw;
+}
+#banner4-head{
+    display: inline-flex;
+    margin-left: 43vw;
+}
+#contact-head, #contact-detail{
+    display: flex;
+    justify-content: center;
+}
+#contact-detail{
+    margin-left:15vw;
+    margin-right: 15vw;
+    font-size: 13px;
+}
+.contact-aside-detail{
+    font-size: 10px;
+}
+#name-input, #email-input-2, #subject-input{
+    width: 50vw;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+#message-input{
+    width: 50vw;
+    height: 70px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.contact-form-head{
+    font-size: 12px;
+}
+#contact-button{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(146, 103, 22);
+    border: none;
+    border-radius: 5px;
+    width: 15vw;
+    height: 35px;
+}
+.pre-foot-img{
+    width: 90%;   
+}
+.pre-foot-head{
+    font-size: 14px;
+}
+.pre-foot-description{
+    font-size: 11px;
+}
+.pre-foot-content{
+    background-color: rgb(255, 245, 212);
+    padding: 50px;
+}
+#address, .foot-nav-content{
+    font-size: 15px;
+}
+#address{
+    position: relative;
+    margin-top: 30px;
+}
+#foot-brand-name, #address{
+    margin-left: 10px;
+}
+.foot-nav-content{
+    display: grid;
+    grid-row-gap: 10px;
+}
+#foot-button,#email-input{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;     
+}
+#foot-button{
+    position: relative;
+    margin-top: 47px;
+    margin-left: 15px;
+}
+#end{
+    margin-left: 30px;
+}
