@@ -218,3 +218,10 @@ header{
         height: 464.26px;
         display: none;
 }
+#icon-heart{  
+        fill: transparent;
+        stroke-width: 15;
+        stroke: white;
+        width: 16px;
+        height: 16px;
+}
