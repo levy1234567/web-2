@@ -111,10 +111,13 @@ async function loadprod() {
 }
 
 loadprod();
-const b = document.getElementById("icon-heart");
-b.addEventListener("click", event => {
-  event.target.style.fill = "red";
-});
+
+const b = document.getElementsByClassName("icon-heart");
+for (let i=0;i < b.length;i++) {
+    b[i].addEventListener("click", event => {
+        event.target.style.fill = "red";
+    });
+}
 
 
 let show_more_btn = document.querySelector("#sec-button");
