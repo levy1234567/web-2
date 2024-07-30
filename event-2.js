@@ -42,7 +42,7 @@ function genprod(product) {
                         <a href=""><span class="material-symbols-outlined"></span>Compare</a>
                     </div>
                     <div>
-                        <div id="icon-heart">
+                        <div class="icon-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 522 512">
                             <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 
                             27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 
@@ -112,47 +112,21 @@ async function loadprod() {
 
 loadprod();
 
-const b = document.getElementById("icon-heart");
-b.addEventListener("click", event => {
-  event.target.style.fill = "red";
-});
+const b = document.getElementsByClassName("icon-heart");
+for (let i=0;i < b.length;i++) {
+    b[i].addEventListener("click", event => {
+        event.target.style.fill = "red";
+    });
+}
 
-const choose1 = document.getElementById("page1");
-choose1.addEventListener("mouseover",event =>{
-    event.target.style.backgroundColor = "rgb(146, 103, 22)";
-    event.target.style.color = "white";
-});
-choose1.addEventListener("mouseout",event=>{
-    event.target.style.backgroundColor ="rgb(255, 245, 212)";
-    event.target.style.color = "black";
-});
-
-const choose2 = document.getElementById("page2");
-choose2.addEventListener("mouseover",event =>{
-    event.target.style.backgroundColor = "rgb(146, 103, 22)";
-    event.target.style.color = "white";
-});
-choose2.addEventListener("mouseout",event=>{
-    event.target.style.backgroundColor ="rgb(255, 245, 212)";
-    event.target.style.color = "black";
-});
-
-const choose3 = document.getElementById("page3");
-choose3.addEventListener("mouseover",event =>{
-    event.target.style.backgroundColor = "rgb(146, 103, 22)";
-    event.target.style.color = "white";
-});
-choose3.addEventListener("mouseout",event=>{
-    event.target.style.backgroundColor ="rgb(255, 245, 212)";
-    event.target.style.color = "black";
-});
-
-const choose4 = document.getElementById("next-page");
-choose4.addEventListener("mouseover",event =>{
-    event.target.style.backgroundColor = "rgb(146, 103, 22)";
-    event.target.style.color = "white";
-});
-choose4.addEventListener("mouseout",event=>{
-    event.target.style.backgroundColor ="rgb(255, 245, 212)";
-    event.target.style.color = "black";
-});
+page_to_go = document.getElementById("page-to-go").childNodes;
+for (let i=0;i<page_to_go.length;i++) {
+    page_to_go[i].addEventListener("mouseover",event =>{
+        event.target.style.backgroundColor = "rgb(146, 103, 22)";
+        event.target.style.color = "white";
+    });
+    page_to_go[i].addEventListener("mouseout",event=>{
+        event.target.style.backgroundColor ="rgb(255, 245, 212)";
+        event.target.style.color = "black";
+    });
+}
